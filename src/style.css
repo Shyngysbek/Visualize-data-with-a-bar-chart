@@ -1,0 +1,31 @@
+p {
+  margin-left: 50px;
+}
+
+svg {
+  margin-top: 5vh;
+  background-color: #FFF2CC;
+}
+
+.bar:hover {
+  fill: lime;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip 
+{	
+    position: absolute;
+    width: auto;
+    height: auto;					
+    padding: 10px 5px;				
+    font: 12px sans-serif;		
+    background: lavender;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
